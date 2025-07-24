@@ -1,0 +1,30 @@
+{
+  "name": "proyectofinalbackend",
+  "version": "1.0.0",
+  "description": "Sistema de Gestion de Productos usando Express y Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlaMendoza90/ProyectoFinalBackEnd.git"
+  },
+  "author": "Carla Mendoza",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CarlaMendoza90/ProyectoFinalBackEnd/issues"
+  },
+  "homepage": "https://github.com/CarlaMendoza90/ProyectoFinalBackEnd#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "firebase": "^12.0.0"
+  }
+}
