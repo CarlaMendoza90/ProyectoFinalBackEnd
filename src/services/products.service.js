@@ -15,3 +15,7 @@ export const createProduct = async (newProduct) => {
 export const updateProduct = async (id, updateProductData) => {
     return await Model.updateProduct(id, updateProductData);
 }
+
+export const deleteProduct = async (id) => {
+    return await Model.deleteProduct(id);
+}
