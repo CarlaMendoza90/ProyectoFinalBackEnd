@@ -9,6 +9,9 @@ export const getProductById = async (id) => {
 };
 
 export const createProduct = async (newProduct) => {
-  return await Model.createProduct(newProduct);
-};
+    return await Model.createProduct(newProduct);
+}
 
+export const updateProduct = async (id, updateProductData) => {
+    return await Model.updateProduct(id, updateProductData);
+}
