@@ -16,3 +16,9 @@ export const getProductById = async (req, res) => {
         });
     }
 };
+
+export const createProduct = async (req, res) => {
+  const newProduct = req.body;
+  const createdProduct = await Service.createProduct(newProduct);
+  res.status(201).json(createdProduct);
+};

@@ -8,3 +8,7 @@ export const getProductById = async (id) => {
     return await Model.getProductById(id);
 };
 
+export const createProduct = async (newProduct) => {
+  return await Model.createProduct(newProduct);
+};
+
